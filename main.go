@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"goNoteBook/packageImport"
 	"runtime"
 	"time"
 )
@@ -30,4 +31,6 @@ func main() {
 	default:
 		fmt.Println("Too far away.")
 	}
+
+	packageImport.AString()
 }
